@@ -27,9 +27,13 @@ Mit dem alten Nalimov-Test aus der Schulzeit, ist das gut möglich.
 
 Berechnung:
 Nalimov-number = abs ( x – Mittelwert) / s   * sqrt ( n / (n-1) )
+
 s = Standartabweichung
+
 n = Anzahl
+
 x = Messwert
+
 
 Angeblich funktioniert der Test schon ab drei Messwerten, was ich allerdings bis heute bezweifel. 
 
