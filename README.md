@@ -1,44 +1,35 @@
-# Nalimov
-(Hybrid Readme English - Deutsch)
+# Nalimov-Test Arduino lib  
+Arduino-IDE library. Tested on Arduino UNO  
+(Hybrid Readme: English - Deutsch)
 
-bad measurement values ​​eliminate before the average is calculated
+Bad measurement values ​​eliminate before the average is calculated
 
 #Wer misst misst Mist :-) ( German proverb ) 
-
-Who has many readings and can not rule out interference always , as I have , before its avarage value determine only eliminate the bad data values. 
-
+Who has many readings and can not rule out interference always , as I have , before its avarage value determine only eliminate the bad data values.   
 With the old Nalimov test from the school , which is quite possible . 
 Supposedly, the test already works from three measured values ​​, which I doubt , 
 
-however, 
-I did not find anything for Arduino , I simply packed into a Library. 
+however,   
+I did not find anything for Arduino , I simply packed into a Library.   
+Nalimov-number = abs ( x – x avarage) / s   * sqrt ( n / (n-1) )   
+Since it is my first release , I beg your indulgence and recommendations.   
 
-Nalimov-number = abs ( x – x avarage) / s   * sqrt ( n / (n-1) )
+The Nalimov tables , I found several . Whether my arrays so are the orginal / optimal values ​​, I do not know .   
 
-Since it is my first release , I beg your indulgence and recommendations . 
-
-The Nalimov tables , I found several . Whether my arrays so are the orginal / optimal values ​​, I do not know . 
-
-#Auch in deutsch ;-) 
-
+#Auch in deutsch ;-)   
 Wer viele Messwerte hat und nicht immer Störungen ausschließen kann, wie ich, muss vor seiner Mittelwert- Bildung erst die Ausreißer eliminieren. 
 
-Mit dem alten Nalimov-Test aus der Schulzeit, ist das gut möglich. 
+Mit dem alten Nalimov-Test aus der Schulzeit, ist das gut möglich.   
 
-Berechnung:
-Nalimov-number = abs ( x – Mittelwert) / s   * sqrt ( n / (n-1) )
+Berechnung:  
+Nalimov-number = abs ( x – Mittelwert) / s   * sqrt ( n / (n-1) )  
+s = Standartabweichung  
+n = Anzahl  
+x = Messwert  
 
-s = Standartabweichung
+Angeblich funktioniert der Test schon ab drei Messwerten, was ich allerdings bis heute bezweifel.  
 
-n = Anzahl
-
-x = Messwert
-
-
-Angeblich funktioniert der Test schon ab drei Messwerten, was ich allerdings bis heute bezweifel. 
-
-Seis drumm -
-
+Seis drumm -  
 da ich nichts für Arduino gefunden habe, hab ich kurzerhand die Formeln in eine Library gepackt.   
 Da es meine erste Veröffentlichung ist, bitte ich um Nachsicht und Verbesserungsvorschläge.   
 Bei den Nalimov-Tabellen, hab ich mehrere gefunden. Ob meine Arrays damit die orginal / optimalen Werte sind, weiß ich nicht.  
